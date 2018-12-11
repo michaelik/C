@@ -6,8 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
 <!------ Include the above in your HEAD tag ---------->
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -38,32 +39,36 @@
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
                                         </div>
-                                        <input type="text" class="form-control" id="nombre" name="username" placeholder="Enter Your Name" required><span class="text-danger"><?php echo form_error('username') ?></span>
+                                        <input type="text" class="form-control" id="nombre" name="username" placeholder="Enter Your Name" required>
                                     </div>
+                                    <span class="text-danger"><?php echo form_error('username') ?></span>
                                 </div>
                                 <div class="form-group">
                                     <div class="input-group mb-2">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
                                         </div>
-                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="Enter Your Email" required><span class="text-danger"><?php echo form_error('email') ?></span>
+                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="Enter Your Email" required>
                                     </div>
+                                    <span class="text-danger"><?php echo form_error('email') ?></span>
                                 </div>
                                 <div class="form-group">
                                     <div class="input-group mb-2">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="fa fa-address-card text-info"></i></div>
                                         </div>
-                                        <input type="text" class="form-control" id="nombre" name="address" placeholder="Enter Your Address" required><span class="text-danger"><?php echo form_error('address') ?></span>
+                                        <input type="text" class="form-control" id="nombre" name="address" placeholder="Enter Your Address" required>
                                     </div>
+                                    <span class="text-danger"><?php echo form_error('address') ?></span>
                                 </div>
                                 <div class="form-group">
                                     <div class="input-group mb-2">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="fa fas fa-phone text-info"></i></div>
                                         </div>
-                                        <input type="tel" class="form-control" id="nombre" name="tel" placeholder="Enter Your Phone Number" required><span class="text-danger"><?php echo form_error('tel') ?></span>
+                                        <input type="tel" class="form-control" id="nombre" name="tel" placeholder="Enter Your Phone Number" required>
                                     </div>
+                                    <span class="text-danger"><?php echo form_error('tel') ?></span>
                                 </div>
                                 <div class="form-group">
                                     <div class="input-group mb-2">
@@ -74,8 +79,9 @@
                                             <option selected disabled>Select Gender</option>
                                             <option>Male</option>
                                             <option>Female</option>
-                                        </select><span class="text-danger"><?php echo form_error('gender') ?></span>
+                                        </select>
                                     </div>
+                                    <span class="text-danger"><?php echo form_error('gender') ?></span>
                                 </div>
                                   
                                 <!-- <div class="form-group">
